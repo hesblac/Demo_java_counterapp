@@ -6,9 +6,13 @@ pipeline {
 
         stage('Git checkout'){
 
-            script{
+            steps{
 
-                git branch: 'main', url: 'https://github.com/hesblac/Demo_java_counterapp.git'
+                script{
+
+                    git branch: 'main', url: 'https://github.com/hesblac/Demo_java_counterapp.git'
+                }
+
             }
         }
     }
