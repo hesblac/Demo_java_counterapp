@@ -15,7 +15,7 @@ pipeline {
 
             }
         }
-        sstage('UNIT Testing'){
+        stage('UNIT Testing'){
 
             steps{
 
